@@ -1,7 +1,16 @@
+// @flow
+
 import * as React from "react";
-import * as ReactDOM from "react-dom";
+import styled from "styled-components";
 
-const store = configureStore();
-const history = createBrowserHistory();
+type Props = {|
+  +test?: string,
+  +node?: string
+|};
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const Component = (props: Props) => {
+  const { node } = props;
+  return <div>{node}</div>;
+};
+
+export default Component;
