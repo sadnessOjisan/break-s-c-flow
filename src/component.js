@@ -4,7 +4,6 @@ import * as React from "react";
 import styled from "styled-components";
 
 type Props = {|
-  +test?: string,
   +node?: string
 |};
 

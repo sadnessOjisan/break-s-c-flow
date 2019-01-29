@@ -1,4 +1,4 @@
 {
   "plugins": ["transform-flow-strip-types"],
-  "presets": ["@babel/preset-react"]
+  "presets": ["react-app"]
 }
